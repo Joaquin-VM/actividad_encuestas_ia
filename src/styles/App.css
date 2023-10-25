@@ -1,0 +1,155 @@
+/* Estilos para el menú de navegación */
+nav {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+/* Estilos para los formularios */
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #ff6347;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+/* Estilos para el listado de encuestas */
+.encuesta-item-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3s;
+  margin: 10px 0;
+}
+
+.encuesta-item-container:hover {
+  transform: translateY(-5px);
+}
+
+.encuesta-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.encuesta-item p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor de la encuesta */
+.encuesta-item-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3s;
+  margin: 10px 0;
+}
+
+.encuesta-item-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos para el título y la descripción de la encuesta */
+.encuesta-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.encuesta-item p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las preguntas y opciones */
+.encuesta-item p ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.encuesta-item p li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el enlace de ver y volver*/
+.encuesta-item a,
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ff6347;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.encuesta-item a:hover,
+.volver:hover {
+  background-color: #ff6347;
+  color: white;
+}
